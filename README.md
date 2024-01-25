@@ -1,4 +1,21 @@
 # Pneumonia Detection using Chest X-Ray Images
+# Authors..
+
+Allan Ngeiywa
+
+Cindy King'ori
+
+Eunice Nduati
+
+Lucy Munge
+
+Muthoni Kahuko
+
+Rodgers Bob
+
+Samuel Lumumba
+
+
 ![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/8e3d4c95-dd36-4600-bfbb-626bcff1dcab)
 
 
