@@ -56,6 +56,9 @@ Ensuring dataset quality, an initial screening process eliminated low-quality or
  InceptionNet
 
 # Confusion Matrix:
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/3246f00c-67c0-49ab-89b3-f2bf730f7bc7)
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/e19a0483-0b97-453d-bb46-e95a28b2ca5e)
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/f8eaf491-8367-406f-bcc9-4da630fbe4ef)
 
 # Observations
 
