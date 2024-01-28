@@ -65,6 +65,11 @@ Ensuring dataset quality, an initial screening process eliminated low-quality or
 
 # Conclusions
 
+Reliable recognition of infections in the lung is a key step in the diagnosis of Pneumonia disease. X-ray imaging examination of Chest is usually performed by trained human examiners or doctors, making the process time-consuming and hard to standardize. 
+
+This  a Pneumonia detection model using the Deep Convolutional Neural Network and Pneumonia Chest X-ray dataset. This data was collected from the various patients and clinically examined and categorized by human examiners. The proposed Deep Convolutional Neural Network was trained on by using 1000 training epochs with NVidia tesla v100 GPU and TensorFlow framework. The training process of the model uses 7000 chest X-ray Images and the testing process uses 200 images. The performance of the proposed model used, evaluated thus using different metrics such as Classification accuracy, Sensitivity, Specificity and the F1 score. The Classification accuracy of the proposed model achieved the average accuracy of 99.53 percentage in unseen chest X-ray images. Also, this accuracy was greater than the existing transfer learning approaches such as Alexnet, Resnet, and InceptionNet. The proposed Deep Convolutional Neural Network was found most suitable to detect Pneumonia infection from Chest X-ray images.
+
+In the future, different lung disease classes will include this model to detect various lung diseases using the chest X-ray images. Also, the performance of the proposed Deep CNN model can be improved with more number of layers and parameters. This will allow clinicians to recognize lung diseases from chest X-ray images with lower prevalence at an earlier stage of the disease.
 
 # Recommendation
 
