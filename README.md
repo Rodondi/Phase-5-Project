@@ -43,6 +43,8 @@ The goal of this project is to develop an automated system for detecting and cla
 The dataset, sourced from Kaggle and accessible at https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data , is organized into three main folders: train, test, and val. Each folder includes subfolders representing two distinct image categories: Pneumonia and Normal. The dataset comprises a total of 5,856 chest X-ray images in JPEG format. These images, employing the anterior-posterior technique, originate from retrospective cohorts of pediatric patients aged one to five years at the Guangzhou Women and Children’s Medical Center in Guangzhou, China. The inclusion of these chest X-ray images in the dataset was part of routine clinical care for pediatric patients.
 
 Ensuring dataset quality, an initial screening process eliminated low-quality or unreadable scans to minimize errors. Two expert physicians then meticulously graded the diagnoses associated with the images, deeming them suitable for training the AI system only after this rigorous evaluation. To further mitigate potential grading errors, an additional layer of scrutiny was applied to the evaluation set. This involved examination by a third expert, providing an extra level of assurance to the accuracy of the diagnoses. This comprehensive approach to quality control and grading establishes a robust foundation for the analysis of chest X-ray images, enhancing the reliability of the AI system trained on this dataset.
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/81c87b51-4329-4350-9210-93be1e232590)
+
 
 # Modelling
 
@@ -66,3 +68,4 @@ Ensuring dataset quality, an initial screening process eliminated low-quality or
 
 # Recommendation
 
+Potential areas for improvement include fine-tuning, additional data collection, and exploring alternative architectures to enhance the model's performance.
