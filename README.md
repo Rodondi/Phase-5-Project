@@ -52,9 +52,6 @@ Ensuring dataset quality, an initial screening process eliminated low-quality or
 
  DenseNet
 
- VGG16
-
- ResNet
 
  InceptionNet
 
