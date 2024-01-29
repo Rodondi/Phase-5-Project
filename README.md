@@ -99,13 +99,15 @@ Pixel Intensity Outliers:
 # Modelling
 
 Creating a Weighted Loss Function To Address Class Imbalance
+
 We address the issue of class imbalance in a binary image classification task using TensorFlow and Keras. The goal is to create a weighted loss function that assigns different weights to classes based on their frequencies in the training data.
 
 Found 4173 images belonging to 2 classes
 Weight for class 0: 0.74
 Weight for class 1: 0.26
 
- Convolutional Neural Network
+Convolutional Neural Network
+
 Total params: 27,841
 Trainable params: 27,841
 Non-trainable params: 0
@@ -115,7 +117,8 @@ Non-trainable params: 0
 <img width="511" alt="image" src="https://github.com/Rodondi/Phase-5-Project/assets/133041685/1c3d37b4-0379-48c8-8be7-562fb4794b2b">
 
 
- DenseNet
+DenseNet
+
 Total params: 11,233,602
 Trainable params: 11,149,442
 Non-trainable params: 84,160
@@ -123,7 +126,8 @@ Non-trainable params: 84,160
 <img width="368" alt="image" src="https://github.com/Rodondi/Phase-5-Project/assets/133041685/bfde2e66-5511-4159-82a7-152976f2bc6b">
 
 
- InceptionNet
+InceptionNet
+
 Found 4173 images belonging to 2 classes.
 Weight for class 0: 0.74
 Weight for class 1: 0.26
@@ -133,6 +137,7 @@ Trainable params: 22,293,665
 Non-trainable params: 34,944
 
 # Confusion Matrix:
+
 ![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/3246f00c-67c0-49ab-89b3-f2bf730f7bc7)
 ![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/e19a0483-0b97-453d-bb46-e95a28b2ca5e)
 ![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/f8eaf491-8367-406f-bcc9-4da630fbe4ef)
