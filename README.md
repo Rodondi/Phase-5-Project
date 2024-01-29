@@ -67,13 +67,70 @@ Number of files in each subfolder of test folder:
 NORMAL: 234
 PNEUMONIA: 390
 
+# Data Cleaning
+Detecting whether an image is blurred based on the variance of the Laplacian. This is a common technique to identify blurred images in image processing applications.
+
+Number of low-quality images in train folder: 1671
+Number of low-quality images in val folder: 1
+Number of low-quality images in test folder: 263
+
+The data output indicates a notable presence of low-quality images. Subsequently, we undertake a detailed examination of specific quality issues to enhance resolution.
+
+# Pre-processing:
+Data augmentation techniques serve the purpose of artificially increasing the diversity of a dataset by applying various transformations to the existing data. In the context of image data, augmentation involves creating new images by making slight modifications to the original ones. The primary purposes of augmentation techniques are: increased diversity, improved robustness, reduced over-fitting, better generalisations and enhanced training efficiency.
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/eabdeed8-d50d-4611-a842-15b234ce6de5)
+
+# EDA
+Class Distribution Visualization
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/5fd97be1-ab3c-468c-a57a-46c3f63b3cdb)
+Image Dimensions
+
+Image Quality Assessment
+<img width="475" alt="image" src="https://github.com/Rodondi/Phase-5-Project/assets/133041685/3576c669-b6a8-4715-9856-6de58cbaa50a">
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/7c72f929-53f0-4e1e-b447-3194baf78b76)
+
+Outlier Detection
+
+Image Dimensions Outliers
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/05848f54-9258-4533-9d8e-4dc28d0953dd)
+Pixel Intensity Outliers:
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/3d13ecda-c1c1-451e-aade-4526fd49c733)
+
 # Modelling
 
+Creating a Weighted Loss Function To Address Class Imbalance
+We address the issue of class imbalance in a binary image classification task using TensorFlow and Keras. The goal is to create a weighted loss function that assigns different weights to classes based on their frequencies in the training data.
+
+Found 4173 images belonging to 2 classes
+Weight for class 0: 0.74
+Weight for class 1: 0.26
+
  Convolutional Neural Network
+Total params: 27,841
+Trainable params: 27,841
+Non-trainable params: 0
+
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/b5c8b9cc-216d-4508-be74-8511e7251b24)
+
+<img width="511" alt="image" src="https://github.com/Rodondi/Phase-5-Project/assets/133041685/1c3d37b4-0379-48c8-8be7-562fb4794b2b">
+
 
  DenseNet
+Total params: 11,233,602
+Trainable params: 11,149,442
+Non-trainable params: 84,160
+
+<img width="368" alt="image" src="https://github.com/Rodondi/Phase-5-Project/assets/133041685/bfde2e66-5511-4159-82a7-152976f2bc6b">
+
 
  InceptionNet
+Found 4173 images belonging to 2 classes.
+Weight for class 0: 0.74
+Weight for class 1: 0.26
+
+Total params: 22,328,609
+Trainable params: 22,293,665
+Non-trainable params: 34,944
 
 # Confusion Matrix:
 ![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/3246f00c-67c0-49ab-89b3-f2bf730f7bc7)
