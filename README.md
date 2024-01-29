@@ -45,6 +45,27 @@ The dataset, sourced from Kaggle and accessible at https://www.kaggle.com/datase
 Ensuring dataset quality, an initial screening process eliminated low-quality or unreadable scans to minimize errors. Two expert physicians then meticulously graded the diagnoses associated with the images, deeming them suitable for training the AI system only after this rigorous evaluation. To further mitigate potential grading errors, an additional layer of scrutiny was applied to the evaluation set. This involved examination by a third expert, providing an extra level of assurance to the accuracy of the diagnoses. This comprehensive approach to quality control and grading establishes a robust foundation for the analysis of chest X-ray images, enhancing the reliability of the AI system trained on this dataset.
 ![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/81c87b51-4329-4350-9210-93be1e232590)
 
+# Data Preparation
+
+![image](https://github.com/Rodondi/Phase-5-Project/assets/133041685/7e4e56d5-327f-45f0-8efc-9125fcee21ea)
+Number of files in train folder: 5216
+Number of files in val folder: 16
+Number of files in test folder: 624
+
+Number of files in each subfolder of train folder:
+.: 0
+NORMAL: 1341
+PNEUMONIA: 3875
+
+Number of files in each subfolder of val folder:
+.: 0
+NORMAL: 8
+PNEUMONIA: 8
+
+Number of files in each subfolder of test folder:
+.: 0
+NORMAL: 234
+PNEUMONIA: 390
 
 # Modelling
 
