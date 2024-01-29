@@ -29,10 +29,10 @@ Early and reliable detection of pneumonia can contribute to more timely medical 
 
 # Main Objectives
 
-Research, design, and implement advanced algorithms for the accurate detection of pneumonia in chest X-ray images.
-Construct a robust binary classifier capable of distinguishing between normal and pneumonia cases in chest X-ray images.
-Integrate the developed pneumonia detection algorithms into an automated diagnostic tool for chest X-ray images.
-Improve the efficiency and precision of pneumonia diagnosis by deploying the automated diagnostic tool.
+- Research, design, and implement advanced algorithms for the accurate detection of pneumonia in chest X-ray images.
+- Construct a robust binary classifier capable of distinguishing between normal and pneumonia cases in chest X-ray images.
+- Integrate the developed pneumonia detection algorithms into an automated diagnostic tool for chest X-ray images.
+- Improve the efficiency and precision of pneumonia diagnosis by deploying the automated diagnostic tool.
 
 # Specific Objective
 
