@@ -52,7 +52,6 @@ Ensuring dataset quality, an initial screening process eliminated low-quality or
 
  DenseNet
 
-
  InceptionNet
 
 # Confusion Matrix:
